@@ -1,0 +1,25 @@
+{
+  "name": "cordial",
+  "version": "1.0.0",
+  "description": "A Discord client in the terminal.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/molarmanful/cordial.git"
+  },
+  "author": "Benjamin Pang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/molarmanful/cordial/issues"
+  },
+  "homepage": "https://github.com/molarmanful/cordial#readme",
+  "dependencies": {
+    "discord.js": "^8.1.0",
+    "marked": "^0.3.6",
+    "marked-terminal": "^1.6.2",
+    "terminal-kit": "^0.24.26"
+  }
+}
